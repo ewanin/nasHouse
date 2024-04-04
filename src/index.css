@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    font-size: 4.8125rem;
+    font-weight: 700;
+    line-height: 90%;
+}
+
+@font-face {
+    font-family: "MontReg";
+    src: url("/Fonts/Mont-Regular.otf");
+}
+
+@font-face {
+    font-family: "MontSemi";
+    src: url("/Fonts/Mont-SemiBold.otf");
+}
+
+@font-face {
+    font-family: "MontBold";
+    src: url("/Fonts/Mont-Bold.otf");
+}
+
+@font-face {
+    font-family: "MontHeavy";
+    src: url("/Fonts/Mont-Heavy.otf");
+}
+
